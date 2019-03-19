@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+ "-//Hibernate/Hibernate Mapping DTD 5.3//EN"  
+ "http://hibernate.sourceforge.net/hibernate-mapping-5.3.dtd">
+
+<hibernate-mapping>
+   <class name = "product.ProductModel" table = "Product">
+      
+      <meta attribute = "class-description">
+         This class contains the employee detail. 
+      </meta>
+      
+      <id name = "id">
+         <generator class="assigned"/>
+      </id>
+      
+      <property name = "ProductName"/>
+       <property name = "Decp"/>
+        <property name = "Quant"/>
+      <property name = "Price"/>
+      
+      
+      
+      
+      
+      
+   </class>
+</hibernate-mapping>
